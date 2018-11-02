@@ -6,7 +6,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 set(sourceDir ${CMAKE_SOURCE_DIR}/src/main/cpp)
-include_directories(${sourceDir}/header)
+include_directories(${sourceDir}/base)
 
 AUX_SOURCE_DIRECTORY(${sourceDir}  SRC_LIST)
 
